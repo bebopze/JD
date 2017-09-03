@@ -9,4 +9,5 @@
 ```
 
 
-> [点击访问](https://htmlpreview.github.io/?https://github.com/junzijian/JD/blob/master/index.html)
+> [点击访问](https://htmlpreview.github.io/?https://github.com/junzijian/JD/blob/master/index.html) <br />
+> <a href="https://htmlpreview.github.io/?https://github.com/junzijian/JD/blob/master/index.html" target="_blank">新窗口打开</a>
