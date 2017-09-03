@@ -1,0 +1,220 @@
+    @charset "UTF-8";
+
+    /*main-slider部分start*/
+    .main-slider {
+        position: relative;
+        float: left;
+        width: 730px;
+        height: 454px;
+        margin: 12px 0 0 220px;
+    }
+    .main-slider ul {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -66px;
+    }
+    .main-slider li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 2px;
+        cursor: pointer;    /* 鼠标小手*/
+        color: #fff;
+        background-color: #3E3E3E;
+    }
+
+    /*main-slider部分end*/
+    .main-slider .current {
+        background-color: red;
+    }
+
+
+    .arrow a {
+        position: absolute;
+        top: 50%;           /* DIV上边长 沿中线对其*/
+        margin-top: -31px;  /* DIV中心线 沿中线对其*/
+        width: 28px;
+        height: 62px;
+        /*background-color: rgb(0, 0, 0);
+        opacity: 0.3;*/                         /* 内容 和 背景色 都会受影响*/
+        background-color: rgba(0, 0, 0, .3);    /*只有背景色受影响*/
+        color: #fff;
+        text-align: center;
+        font: 400 22px/62px "simsun";
+    }
+    .arrow a:hover {
+        background-color: rgba(0, 0, 0, .6);
+    }
+    .arrow-left {
+        left: 0;    /*左对齐*/
+        border-radius: 0 10px 10px 0;
+    }
+    .arrow-right {
+        right: 0;  /*右对齐*/      /* 在定位的前提下，right权限没left高！！！  同：bottom权限没top高*/
+        border-radius: 10px 0 0 10px;
+    }
+
+
+    /*main-news部分start*/
+    .main-news {
+        float: right;
+        width: 250px;
+        height: 466px;
+    }
+
+    /*main-news-top部分start*/
+    .main-news-top {
+        width: 248px;
+        height: 372px;
+        margin: 12px 0 5px 0;
+        overflow: hidden;           /* 超出此DIV 宽高范围之外的部分 隐藏*/
+        border: 1px solid #E4E4E4;
+    }
+
+    /*main-news-top-faster 部分start*/
+    .main-news-top-faster {
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;
+    }
+
+    /*main-news-top-faster-title 部分start*/
+    .main-news-top-faster-title {
+        height: 32px;
+        padding: 0 15px;
+        line-height: 32px;
+        border-bottom: 1px dotted #E8E8E7;  /*点线*/
+    }
+    .main-news-top-faster-title h2 {
+         float: left;
+        font: 400 16px/32px "microsoft yahei";
+    }
+    .main-news-top-faster-title a {
+        float: right;
+        font-family: "lucida console";
+    }
+    /*main-news-top-faster-title 部分end*/
+
+    /*main-news-top-faster-content 部分end*/
+    .main-news-top-faster-content {
+        padding: 5px 0 0 15px;
+    }
+    .main-news-top-faster-content li {
+        /*height: 24px;*/
+        line-height: 24px;
+    }
+    .main-news-top-faster-content span {
+        font-width: 700;
+        margin-right: 5px;
+    }
+    /*main-news-top-faster-content 部分end*/
+    /*main-news-top-faster 部分end*/
+
+
+    /*main-news-top-money 部分start*/
+    .main-news-top-money {
+
+    }
+    .main-news-top-money ul {
+        width: 260px;
+    }
+    .main-news-top-money li {
+        position: relative;
+        width: 62px;
+        height: 70px;
+        float: left;
+        margin-left: -1px;
+        margin-top: -1px;
+        border-top: 0;;
+        border: 1px solid #E8E8E7;
+    }
+    .main-news-top-money a {
+        display: block;
+        width: 62px;
+        height: 70px;
+        text-align: center;         /* 横向居中 */
+        /*line-height: 70px;*/      /* 竖向居中 */
+        line-height: 30px;
+        padding-top: 40px;
+        /*margin-top: 40px;*/
+
+    }
+    .main-news-top-money i {
+        position: absolute;
+        top: 13px;
+        left: 18px;
+        width: 25px;
+        height: 25px;
+        background: url("../images/fly.png") no-repeat;
+    }
+
+    .main-news-top-money .main-news-top-money-icon1 {
+        background-position: 0 0;
+    }
+    .main-news-top-money .main-news-top-money-icon1 span {
+
+    }
+    .main-news-top-money .main-news-top-money-icon2 {
+        background-position: 0 -25px;
+    }
+    .main-news-top-money .main-news-top-money-icon3 {
+        background-position: 0 -50px;
+    }
+    .main-news-top-money .main-news-top-money-icon4 {
+        background-position: 0 -75px;
+    }
+    .main-news-top-money .main-news-top-money-icon5 {
+        background-position: 0 -100px;
+    }
+    .main-news-top-money .main-news-top-money-icon6 {
+        background-position: 0 -125px;
+    }
+    .main-news-top-money .main-news-top-money-icon7 {
+        background-position: 0 -150px;
+    }
+    .main-news-top-money .main-news-top-money-icon8 {
+        background-position: 0 -175px;
+    }
+    .main-news-top-money .main-news-top-money-icon9 {
+        background-position: 0 -200px;
+    }
+    .main-news-top-money .main-news-top-money-icon10 {
+        background-position: 0 -225px;
+    }
+    .main-news-top-money .main-news-top-money-icon11 {
+        background-position: 0 -250px;
+    }
+    .main-news-top-money .main-news-top-money-icon12 {
+        background-position: 0 -275px;
+    }
+
+    .show {
+        background: url("../images/free2.png") no-repeat right top;
+    }
+    .show2 {
+        background: url("../images/free2.png") no-repeat 41px 0;
+    }
+    .show3 {
+        background: url("../images/free2.png") no-repeat 0 0;
+    }
+
+    /*main-news-top-money 部分end*/
+    /*main-news-top部分end*/
+
+
+
+    /*main-news-bottom部分start*/
+    .main-news-bottom {
+
+    }
+    /*main-news-bottom部分end*/
+
+    /*main-news部分end*/
+
+
+    /*footer-top部分start*/
+
+    /*footer-top部分end*/
